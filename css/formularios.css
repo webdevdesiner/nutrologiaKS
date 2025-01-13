@@ -1,0 +1,27 @@
+#contactForm input.error[type="text"],
+#contactForm input.error[type="email"],
+#contactForm textarea.error,
+#contactForm select.error{
+    border: 1px solid red!important;
+}
+#message-sent {
+    color: black;
+    display: none;
+    margin: 10px 0;
+}
+
+#contactForm .error-container label {
+    color: red;
+    display: block;
+    font-style: italic;
+}
+#contact-loader {
+    display: none;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+label.error, input.error, textarea.error {
+    color: red;
+    border: 1px solid red!important;
+}

@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redireciona todas as requisições HTTP para HTTPS
+    RewriteCond %{HTTPS} off
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Regras de reescrita para rotas específicas
+    RewriteRule ^empresa\/?$ empresa.php [NC,L]
+    RewriteRule ^produtos\/?$ produtos.php [NC,L]
+    RewriteRule ^produtos\/([A-Za-z0-9-_]+)\/?$ produtos.php?$1 [NC,L]
+    RewriteRule ^catalogo\/?$ catalogo.php [NC,L]
+    RewriteRule ^distribuidores\/?$ distribuidores.php [NC,L]
+    RewriteRule ^contato\/?$ contato.php [NC,L]
+
+</IfModule>
+

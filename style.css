@@ -1,0 +1,736 @@
+
+* {
+    font-family: 'Lato';
+    
+}
+
+#carouselExample {
+    margin-top: 6%;
+
+}
+
+.carousel-fade .carousel-item {
+    transition: opacity 2.5s ease-in-out; /* Tempo e suavidade da transição */
+  }
+  
+  .carousel-fade .carousel-item-next,
+  .carousel-fade .carousel-item-prev,
+  .carousel-fade .carousel-item.active {
+    display: block; /* Garante que os slides sejam exibidos corretamente */
+  }
+  
+
+/* Torna a imagem da doutora fixa sobre o banner */
+.doutora-png {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente no banner */
+    left: 80%;/* Centraliza horizontalmente no banner */
+    transform: translate(-50%, -50%); /* Garante alinhamento central */
+    width: auto; /* Reduz o tamanho da imagem para 15% da largura do banner */
+    max-width: 820px; /* Limita o tamanho máximo (opcional) */
+    height: 100%; /* Mantém as proporções da imagem */
+    z-index: 10; /* Coloca a imagem acima do banner */
+  }
+
+  .clinicaNome {
+    position: absolute;
+    top: 80%; /* Centraliza verticalmente no banner */
+    left: 20%;/* Centraliza horizontalmente no banner */
+    transform: translate(-50%, -50%); /* Garante alinhamento central */
+    width: auto; /* Reduz o tamanho da imagem para 15% da largura do banner */
+    max-width: 820px; /* Limita o tamanho máximo (opcional) */
+    height: 50%; /* Mantém as proporções da imagem */
+    z-index: 10; /* Coloca a imagem acima do banner */
+  }
+  
+  
+
+#navbar-master{
+    display: flex;
+    width: 75%;
+}
+
+#navbarSupportedContent{
+    justify-content: end;
+}
+
+.banner {
+    object-fit: cover;
+    width: 100%;
+}
+
+.div-frase-apos-banner{
+    width: 100%;
+    background-color: #000000;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+.divBolocoicones{
+    width: 100%;
+    /* background-color: #000000; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.slick-slide {
+    text-align: center;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+h8 {
+    font-size: 1rem;
+}
+
+.category-card {
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.clique-aqui:hover {
+    transform: scale(1.05);
+    /* Aumenta o tamanho em 5% */
+}
+
+.clique-aqui {
+    background-color: #F9F9F9;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0.5%;
+    margin-left: 1%;
+    transition: transform 0.3s ease-in-out;
+    /* Animação suave para o aumento */
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.parcerias{
+    width: 75%;
+    padding: 3em 0;
+}
+
+
+/* Adicionando estilo para aumentar as colunas ao passar o mouse */
+.col {
+    transition: transform 0.3s ease-in-out;
+    /* Animação suave para o aumento */
+}
+
+.col:hover {
+    transform: scale(1.05);
+    /* Aumenta o tamanho em 5% */
+}
+
+.card {
+    box-shadow: 0px 0px 20px 0px grey;
+    border-radius: 30px !important;
+}
+
+.card-img-top {
+    width: 50% !important;
+    margin: auto !important;
+}
+
+/* .footer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    /* Background color as seen in the image */
+    color: white;
+    margin-top: -9.8%;
+    padding: 20px 0;
+    z-index: 0;
+} */
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .logo img {
+    max-width: 75%;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer .payment-methods img {
+    margin: 5px;
+}
+
+#pix-payment{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pix-payment img{
+    object-fit: contain;
+}
+
+.list-unstyled {
+    text-align: left;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.coluna-rodape {
+    text-align: left;
+}
+
+.sobre-nos img {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+}
+
+.seja-nosso-parceiro {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+#vitrinee {
+    font-size: 28px;
+}
+
+.vitrine-titulo {
+    font-weight: 900;
+    margin-top: 90px;
+    font-size: 28px;
+}
+
+.vitrine-frase {
+    font-size: 21px;
+    margin-top: 11px;
+}
+
+.pagseguro {
+    width: 200px;
+}
+
+.pix {
+    width: 150px
+}
+
+.qr-code {
+    width: 80px;
+    padding: 2.5%;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 8%;
+}
+
+.boleto {
+    width: 150px;
+}
+
+.itens-rodape {
+    display: flex;
+    align-items: center;
+}
+
+.itens-rodape p {
+    margin: 0;
+}
+
+.contatos {
+    margin-left: 2%;
+}
+
+.forma-pagamento {
+    margin-left: -10%;
+}
+
+.slick-slide img {
+    width: 100%;
+    /* Faz com que as imagens ocupem 100% da largura do slide */
+    border-radius: 10px;
+    /* Adiciona bordas arredondadas às imagens */
+    margin-left: 2.5%;
+}
+
+/* Estilo das setas de navegação */
+.slick-prev,
+.slick-next {
+    width: 50px;
+    /* Largura do botão */
+    height: 50px;
+    /* Altura do botão */
+    background-color: transparent;
+    /* Fundo amarelo */
+    color: #82BB50;
+    /* Cor verde do ícone */
+    border: 2px solid #82BB50;
+    /* Borda verde */
+    border-radius: 50%;
+    /* Torna o botão redondo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    /* Tamanho da seta */
+    line-height: 1;
+    cursor: pointer;
+    /* Muda o cursor para indicar que é clicável */
+    z-index: 1;
+    /* Garante que as setas fiquem acima dos slides */
+    font-weight: bold;
+    /* Adiciona negrito ao ícone */
+}
+
+.slick-prev::before {
+    display: none;
+}
+
+.row>* {
+    padding: 0 !important;
+}
+
+.slick-next::before {
+    display: none;
+}
+
+.draggable {
+    width: 94% !important;
+    margin: auto !important;
+}
+
+/*estilização do  botao - confira nosso catalogo*/
+.cta {
+    display: flex;
+    gap: 4em;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    position: relative;
+    text-align: center;
+    /* Centraliza o botão horizontalmente */
+    width: 100%;
+    padding: 1.5em;
+}
+
+.cta h5 {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+
+.cta-button {
+    background-color: white;
+    /* Fundo branco */
+    color: black;
+    /* Texto preto */
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: transform 0.3s ease-in-out;
+    width: 20%;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+}
+
+.parceiro-frase {
+    font-size: 21px;
+    margin-top: 20px;
+    width: 93.5%;
+}
+
+.container-mt-4 {
+    width: 100%;
+}
+
+.img-card {
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+
+.depoimentos {
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .depoimentos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .depoimento {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+    border-radius: 15px;
+  }
+  
+  .depoimento p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .depoimento span {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .depoimentos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .depoimentos h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .depoimentos form {
+    margin-top: 20px;
+  }
+  
+  .depoimentos textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+  }
+  
+  .depoimentos button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .depoimentos button:hover {
+    background-color: #3e8e41;
+  }
+  
+
+  .bobfooter {
+    background-color: #040120;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .bobfooter h4 {
+    margin-top: 0;
+  }
+  
+  .bobfooter ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .bobfooter li {
+    margin-bottom: 10px;
+  }
+  
+  .bobfooter a {
+    color: #6d83ff;
+    text-decoration: none;
+  }
+  
+  .bobfooter a:hover {
+    color: #ccc;
+  }
+  
+  .bobfooter .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .bobfooter .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .bobfooter .col-md-4 {
+    flex-basis: 33.33%;
+  }
+  
+  .bobfooter .col-md-12 {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+
+  /* Media query para mobile */
+  @media (max-width: 768px) {
+    .depoimentos-container {
+      flex-direction: column;
+    }
+    .depoimento {
+      width: 100%;
+      margin: 20px 0;
+    }
+    .depoimentos h2 {
+      font-size: 18px;
+    }
+    .depoimentos h3 {
+      font-size: 16px;
+    }
+    .depoimentos form {
+      margin-top: 10px;
+    }
+    .depoimentos textarea {
+      height: 50px;
+    }
+    .depoimentos button {
+      padding: 5px 10px;
+    }
+    /* Mostrar apenas um depoimento em dispositivos móveis */
+    .depoimento:nth-child(n+2) {
+      display: none;
+    }
+    /* Adicionar um botão para ver mais depoimentos */
+    .ver-mais-depoimentos {
+      display: block;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .ver-mais-depoimentos:hover {
+      background-color: #3e8e41;
+    }
+  }
+
+
+@media(max-width: 526px) {
+
+    .footer{
+        margin-top: -4em;
+    }
+
+    .parcerias {
+        width: 95%;
+    }
+
+    .coluna-rodape {
+        text-align: left;
+        padding: 0;
+        max-width: 90vw;
+    }
+
+    .itens-rodape {
+        display: flex;
+        align-items: center;
+    }
+
+    .itens-rodape p {
+        margin-left: 1em !important;
+    }
+
+
+    .category-card {
+        height: 230px;
+    }
+
+    .banner {
+        margin-top: 17%;
+    }
+
+    #carouselExample {
+        margin-top: 27%;
+    }
+
+    .seja-nosso-parceiro {
+        font-size: 18px;
+        margin-top: 20px;
+        font-weight: 900;
+    }
+
+    .parceiro-frase {
+        font-size: 14px;
+    }
+
+    .clique-aqui {
+        width: 260px;
+    }
+
+    .confira-nosso-catalogo {
+        width: 60%;
+    }
+
+    #vitrinee {
+        font-size: 26px;
+    }
+
+    .cta {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .cta-button{
+        width: 100%;
+    }
+
+    .frases-apos-banner {
+        font-size: 0.7rem;
+    }
+
+    .vitrine-titulo {
+        font-size: 18px;
+    }
+
+    .vitrine-frase {
+        font-size: 13px;
+        margin-top: 4px;
+    }
+
+    .institucional-pagamento {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .qr-code {
+        display: none;
+    }
+
+    .pagseguro {
+        width: 125px;
+    }
+
+    .pix {
+        width: 85px;
+    }
+
+    .boleto {
+        width: 70px;
+    }
+
+    .itens-rodape {
+        width: 100%;
+    }
+
+    .contatos {
+        margin-top: 15%;
+    }
+
+    .forma-pagamento {
+        margin: 0;
+        margin-top: 10%;
+        margin-left: 0.5em;
+    }
+
+    .container-mt-4 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .segunda-leva-cards {
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+    .img-card {
+        width: 130px;
+        height: 210px;
+        margin-top: 20px;
+    }
+
+    .whatsapp-float {
+        right: 4em;
+        margin-right: -4em;
+    }
+
+    #navbar-master{
+        display: block;
+        width: 100% !important;
+        position: relative;
+        padding: 1em;
+    }
+
+    .navbar-toggler{
+        position: absolute;
+        right: 1em;
+        top: 35%;
+    }
+
+    .navbar{
+        margin: 0;
+        padding: 0;
+    }
+
+    #institucional{
+        margin-top: 10%;
+    }
+
+    #parceria-list{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .bobfooter .row {
+      flex-direction: column;
+    }
+    .bobfooter .col-md-4 {
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+    .bobfooter ul {
+      padding: 0 20px;
+    }
+    .bobfooter li {
+      margin-bottom: 10px;
+    }
+    .bobfooter .container {
+      padding: 20px;
+    }
+  }

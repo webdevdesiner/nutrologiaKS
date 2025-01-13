@@ -1,0 +1,28 @@
+html{
+}
+body{
+    
+    &.bg-custom{
+        background-color: #fff;
+    }
+}
+a{
+    color: #646464;
+}
+h1{
+    margin:20px;
+}
+.content-wrapper{
+    background-color: #eee;
+}
+
+
+iframe{
+    width: 100%;
+}
+.coffee{
+    h3,
+    form{
+        padding: 10px;
+    }
+}
