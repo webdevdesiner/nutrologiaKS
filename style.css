@@ -61,7 +61,7 @@
 
 .div-frase-apos-banner{
     width: 100%;
-    background-color: #000000;
+    background-color: #2C3E50;
     height: 40px;
     display: flex;
     align-items: center;
@@ -105,9 +105,9 @@ h8 {
 }
 
 .clique-aqui {
-    background-color: #F9F9F9;
+    background-color: #2C3E50;
     text-decoration: none;
-    color: black;
+    color: rgb(171, 172, 117);
     font-weight: bold;
     width: 350px;
     border-radius: 20px;
@@ -163,13 +163,13 @@ h8 {
     width: 100%;
     background-color: #000000;
     /* Background color as seen in the image */
-    color: white;
+    /* color: white;
     margin-top: -9.8%;
     padding: 20px 0;
     z-index: 0;
-} */
+} */ */
 
-.footer a {
+/* .bobfooter a {
     color: white;
     text-decoration: none;
 }
@@ -190,16 +190,16 @@ h8 {
 
 .footer .payment-methods img {
     margin: 5px;
-}
+} */
 
-#pix-payment{
+/* #pix-payment{
     display: flex;
     flex-wrap: wrap;
 }
 
 #pix-payment img{
     object-fit: contain;
-}
+} */
 
 .list-unstyled {
     text-align: left;
@@ -335,7 +335,7 @@ h8 {
     gap: 4em;
     align-items: center;
     justify-content: center;
-    background: #000000;
+    background: #2C3E50;
     position: relative;
     text-align: center;
     /* Centraliza o botão horizontalmente */
@@ -453,7 +453,7 @@ h8 {
   
 
   .bobfooter {
-    background-color: #040120;
+    background-color: #2C3E50;
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -474,7 +474,7 @@ h8 {
   }
   
   .bobfooter a {
-    color: #6d83ff;
+    color: #fcffce;
     text-decoration: none;
   }
   
@@ -742,3 +742,86 @@ h8 {
       padding: 20px;
     }
   }
+
+
+  /* fernando  */
+
+
+  section.depoimentosArea {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    position: relative;
+}
+
+section.depoimentosArea h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.depoimentos-wrapperArea {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.depoimentos-containerArea {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none; /* Ocultar scrollbar no Firefox */
+}
+
+.depoimentos-containerArea::-webkit-scrollbar {
+    display: none; /* Ocultar scrollbar no Chrome */
+}
+
+.depoimentoArea {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    flex: 0 0 300px; /* Tamanho fixo para cada card */
+    scroll-snap-align: center;
+    text-align: left;
+}
+
+.depoimentoArea p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.depoimentoArea span {
+    font-size: 0.9rem;
+    color: #888;
+    font-style: italic;
+}
+
+button.prev, button.next {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
