@@ -29,6 +29,16 @@
     width: auto; /* Reduz o tamanho da imagem para 15% da largura do banner */
     max-width: 820px; /* Limita o tamanho máximo (opcional) */
     height: 100%; /* Mantém as proporções da imagem */
+    z-index: 11; /* Coloca a imagem acima do banner */
+  }
+.doutoras-png {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente no banner */
+    left: 80%;/* Centraliza horizontalmente no banner */
+    transform: translate(-50%, -50%); /* Garante alinhamento central */
+    width: auto; /* Reduz o tamanho da imagem para 15% da largura do banner */
+    max-width: 820px; /* Limita o tamanho máximo (opcional) */
+    height: 100%; /* Mantém as proporções da imagem */
     z-index: 10; /* Coloca a imagem acima do banner */
   }
 
