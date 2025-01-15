@@ -736,13 +736,20 @@ h8 {
         justify-content: center;
     }
 }
-
-
+/* adcionei para o botao prev depoimentos */
+@media (max-width: 768px) {
+    .prev {
+      max-width: 100px;
+    }
+  }
 @media (max-width: 768px) {
     .prev {
       font-size: 14px;
     }
   }
+
+
+  /* add botao prev */
 
 @media (max-width: 768px) {
     .bobfooter .row {
