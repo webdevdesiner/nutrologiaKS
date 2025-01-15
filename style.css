@@ -149,6 +149,7 @@ h8 {
 /* Adicionando estilo para aumentar as colunas ao passar o mouse */
 .col {
     transition: transform 0.3s ease-in-out;
+    margin: auto;
     /* Animação suave para o aumento */
 }
 
@@ -349,8 +350,10 @@ h8 {
     position: relative;
     text-align: center;
     /* Centraliza o botão horizontalmente */
-    width: 100%;
+    width: 50%;
+    border-radius: 15px;
     padding: 1.5em;
+    margin: auto;
 }
 
 .cta h5 {
